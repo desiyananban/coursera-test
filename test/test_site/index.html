@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>module-2 assignment</title>
+</head>
+<Style>
+       
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color: white;
+    }
+
+     h1{
+        font-family: Helvetica;
+        text-align:center;
+        font-weight: bold;
+        font-size: 175%;
+    }
+
+
+    section{
+        position: relative;
+        padding: 15px;
+        width: 100%
+    }
+     p{
+        position: relative;
+        clear:right;
+    }
+    div{
+        position: relative;
+        background-color: gray;
+        border:1px solid black;
+        width: 100%
+        margin-right:auto;
+        margin-left: auto;
+    }
+    #X1{
+        float: right;
+        width: 100px
+        padding:5px;
+        margin: 0px;
+        border:1px solid black;
+        text-align: center;
+        background-color: green;
+    }
+    #X2{
+        float: right;
+        width: 100px
+        padding:5px;
+        margin: 0px;
+        border:1px solid black;
+        text-align: center;
+        background-color: yellow;
+    }
+    #X3{
+        float: right;
+        width: 100px
+        padding:5px;
+        margin: 0px;
+        border:1px solid black;
+        text-align: center;
+        background-color: red;
+    }
+    .main{
+        padding: 5px;
+        background-color: gray;
+        font-family: Helvetica;
+        width:90%;
+        height: 200px;
+        }
+
+    
+    
+    .row{
+        width: 100%
+
+    }
+    @media(min-width:992px){
+        .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
+            float:left;
+            border:1px solid white;
+            
+    }
+    
+    .col-lg-1{
+        width: 8.33%
+    }
+    .col-lg-2{
+        width: 16.66%
+    }
+    .col-lg-3{
+        width: 25%
+    }
+    .col-lg-4{
+        width: 33.32%
+    }
+    .col-lg-5{
+        width: 41.65%
+    }
+    .col-lg-6{
+        width: 50%
+    }
+    .col-lg-7{
+        width: 58.31%
+    }
+    .col-lg-8{
+        width: 66.64%
+    }
+    .col-lg-9{
+        width: 74.97%
+    }
+    .col-lg-10{
+        width: 83.3%
+    }
+    .col-lg-11{
+        width: 91.63%
+    }
+    .col-lg-12{
+        width: 100%
+    }
+}
+
+    @media(min-width: 768px) and (max-width:991px){
+    .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
+        float: left;
+        border:1px solid white;
+
+}
+    .col-md-1{
+        width: 8.33%
+    }
+    .col-md-2{
+        width: 16.66%
+    }
+    .col-md-3{
+        width: 25%
+    }
+    .col-md-4{
+        width: 33.32%
+    }
+    .col-md-5{
+        width: 41.65%
+    }
+    .col-md-6{
+        width: 50%
+    }
+    .col-md-7{
+        width: 58.31%
+    }
+    .col-md-8{
+        width: 66.64%
+    }
+    .col-md-9{
+        width: 74.97%
+    }
+    .col-md-10{
+        width: 83.3%
+    }
+    .col-md-11{
+        width: 91.63%
+    }
+    .col-md-12{
+        width: 100%
+    }
+}
+
+    @media(max-width: 767px){
+    .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{
+        float: left;
+        border:1px solid white;
+
+}
+    .col-sm-1{
+        width: 8.33%
+    }
+    .col-sm-2{
+        width: 16.66%
+    }
+    .col-sm-3{
+        width: 25%
+    }
+    .col-sm-4{
+        width: 33.32%
+    }
+    .col-sm-5{
+        width: 41.65%
+    }
+    .col-sm-6{
+        width: 50%
+    }
+    .col-sm-7{
+        width: 58.31%
+    }
+    .col-sm-8{
+        width: 66.64%
+    }
+    .col-sm-9{
+        width: 74.97%
+    }
+    .col-sm-10{
+        width: 83.3%
+    }
+    .col-sm-11{
+        width: 91.63%
+    }
+    .col-sm-12{
+        width: 100%
+    }
+}
+
+
+
+</Style>
+</head>
+    <body>
+    <h1> Our Menu </h1>
+     <section class="col-lg-4 col-md-6 col-sm-12">
+        <div>
+            <p id="X1">Chicken</p>
+            <p class="main">
+        lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat </p>
+    </div>
+</section>
+        <section class="col-lg-4 col-md-6 col-sm-12">
+            <div>
+                <p id="X2">Beef</p>
+                <p class="main">loream ipsum dolor sit amet,consectetur adipiscing elit ,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p></div>
+            </section>
+     <section class="col-lg-4 col-md-12 col-sm-12">
+        <div>
+            <p id="X3">Sushi</p>
+            <p class="main">loream ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p></div>
+    
+</div>
+</body>
+</html>
